@@ -1,10 +1,12 @@
-# smashApp
+# smackApp
 
 Description:
 Build a Slack-Clone App!
 
 Lesson Learned:
 1. CocoaPods to manage libraries
+2. Sliders
+3. GradientView
 
 Issue encounterd and how to solve:
 1. no such module 'starscream': run podfile and install again
