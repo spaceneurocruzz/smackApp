@@ -8,6 +8,7 @@ Lesson Learned:
 2. Sliders
 3. GradientView
 4. Web request and API, Hosting API, Locally Hosting API, Alamofire lib
+5. SwiftyJSON lib
 
 Issue encounterd and how to solve:
 1. no such module 'starscream': run podfile and install again
