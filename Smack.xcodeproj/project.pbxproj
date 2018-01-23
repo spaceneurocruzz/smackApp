@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D0567B02003AB0F00167A4E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D949BB52000DD3D0020EB27 /* SWRevealViewController.m */; };
+		0D10A18C20175A7500F2AB6A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D10A18B20175A7500F2AB6A /* AuthService.swift */; };
 		0D11D69E200394AD00584BAF /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11D69D200394AD00584BAF /* ChatVC.swift */; };
 		0D11D6A0200394C700584BAF /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11D69F200394C700584BAF /* ChannelVC.swift */; };
 		0D2B821B2010F82400D4843E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B821A2010F82400D4843E /* Constants.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D10A18B20175A7500F2AB6A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		0D11D69D200394AD00584BAF /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		0D11D69F200394C700584BAF /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		0D2B821A2010F82400D4843E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D10A18A20175A5A00F2AB6A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0D10A18B20175A7500F2AB6A /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		0D11D69A2003932500584BAF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +119,7 @@
 		0D949B9F2000C0FF0020EB27 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				0D10A18A20175A5A00F2AB6A /* Services */,
 				0D2B82192010F80C00D4843E /* Utilities */,
 				0D11D69C2003933700584BAF /* Model */,
 				0D11D69B2003933200584BAF /* View */,
@@ -277,6 +288,7 @@
 				0D0567B02003AB0F00167A4E /* SWRevealViewController.m in Sources */,
 				0D11D69E200394AD00584BAF /* ChatVC.swift in Sources */,
 				0D4C5B122012372A00A5DF82 /* CreateAccountVC.swift in Sources */,
+				0D10A18C20175A7500F2AB6A /* AuthService.swift in Sources */,
 				0D2B821D201101BF00D4843E /* LoginVC.swift in Sources */,
 				0D11D6A0200394C700584BAF /* ChannelVC.swift in Sources */,
 				0D949BA12000C0FF0020EB27 /* AppDelegate.swift in Sources */,
