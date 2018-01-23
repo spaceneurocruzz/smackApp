@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0D0567B02003AB0F00167A4E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D949BB52000DD3D0020EB27 /* SWRevealViewController.m */; };
 		0D10A18C20175A7500F2AB6A /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D10A18B20175A7500F2AB6A /* AuthService.swift */; };
+		0D10A18E20176E5000F2AB6A /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D10A18D20176E5000F2AB6A /* RoundedButton.swift */; };
 		0D11D69E200394AD00584BAF /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11D69D200394AD00584BAF /* ChatVC.swift */; };
 		0D11D6A0200394C700584BAF /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D11D69F200394C700584BAF /* ChannelVC.swift */; };
 		0D2B821B2010F82400D4843E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2B821A2010F82400D4843E /* Constants.swift */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		0D10A18B20175A7500F2AB6A /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		0D10A18D20176E5000F2AB6A /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		0D11D69D200394AD00584BAF /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		0D11D69F200394C700584BAF /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		0D2B821A2010F82400D4843E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				0D625FA5200F94DF002F76B1 /* GradienView.swift */,
+				0D10A18D20176E5000F2AB6A /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D0567B02003AB0F00167A4E /* SWRevealViewController.m in Sources */,
+				0D10A18E20176E5000F2AB6A /* RoundedButton.swift in Sources */,
 				0D11D69E200394AD00584BAF /* ChatVC.swift in Sources */,
 				0D4C5B122012372A00A5DF82 /* CreateAccountVC.swift in Sources */,
 				0D10A18C20175A7500F2AB6A /* AuthService.swift in Sources */,
